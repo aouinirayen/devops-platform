@@ -6,7 +6,7 @@
       POSTGRES_PASSWORD: platform_dev_pwd
       POSTGRES_DB: platform
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
 
